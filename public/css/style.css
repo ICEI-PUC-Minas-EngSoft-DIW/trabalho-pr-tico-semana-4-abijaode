@@ -1,30 +1,40 @@
 body{
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color:#f5f5f5;
 }
 
 
 /* HEADER */
 
 .header{
-    background-color: #111;
-    color: white;
-    text-align: center;
-    padding:20px;
+    background-color:#111;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+.header h1{
+    margin:0;
+    font-size:40px;
+}
+
+.header p{
+    margin-top:5px;
 }
 
 
 /* MENU */
 
 .menu{
-    background-color: black;
+    background-color:black;
     padding:15px;
 }
 
 .menu ul{
     display:flex;
     justify-content:center;
-    gap:30px;
+    gap:35px;
     list-style:none;
     margin:0;
     padding:0;
@@ -34,6 +44,10 @@ body{
     color:white;
     font-weight:bold;
     cursor:pointer;
+}
+
+.menu li:hover{
+    text-decoration:underline;
 }
 
 
@@ -50,6 +64,8 @@ body{
 section{
     padding:40px;
     margin:20px;
+    background:white;
+    border-radius:8px;
 }
 
 
@@ -60,9 +76,14 @@ section{
 }
 
 .sobre img{
-    width:300px;
+    width:280px;
     margin-top:20px;
     border-radius:10px;
+}
+
+.sobre p{
+    max-width:700px;
+    margin:auto;
 }
 
 
@@ -72,14 +93,19 @@ section{
     display:flex;
     justify-content:center;
     gap:40px;
+    flex-wrap:wrap;
 }
 
 .clubes article{
     text-align:center;
+    background:#fafafa;
+    padding:20px;
+    border-radius:8px;
+    width:150px;
 }
 
 .clubes img{
-    width:120px;
+    width:100px;
 }
 
 
@@ -91,6 +117,7 @@ section{
 
 .titulos article{
     margin:10px;
+    padding:10px;
 }
 
 
@@ -98,6 +125,12 @@ section{
 
 .puskas{
     text-align:center;
+}
+
+.puskas img{
+    width:350px;
+    margin-top:15px;
+    border-radius:8px;
 }
 
 
@@ -110,6 +143,19 @@ section{
 .formulario input{
     padding:10px;
     margin:10px;
+    border:1px solid #ccc;
+}
+
+.formulario button{
+    padding:10px 20px;
+    background:black;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+.formulario button:hover{
+    background:#333;
 }
 
 
@@ -120,5 +166,4 @@ footer{
     color:white;
     text-align:center;
     padding:20px;
-    position:relative;
 }
