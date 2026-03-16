@@ -25,4 +25,7 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Print da home-page criada
 
-![Home Page](public/imagens/homepage.png)
+![Home Page 1](public/imagens/tela1.png)
+![Home Page 2](public/imagens/tela2.png)
+![Home Page 3](public/imagens/tela3.png)
+![Home Page 4](public/imagens/tela4.png)
