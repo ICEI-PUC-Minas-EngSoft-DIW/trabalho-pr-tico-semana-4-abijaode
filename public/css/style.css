@@ -1,0 +1,124 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* HEADER */
+
+.header{
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding:20px;
+}
+
+
+/* MENU */
+
+.menu{
+    background-color: black;
+    padding:15px;
+}
+
+.menu ul{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.menu li{
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+
+/* BANNER */
+
+.banner img{
+    width:100%;
+    display:block;
+}
+
+
+/* SEÇÕES */
+
+section{
+    padding:40px;
+    margin:20px;
+}
+
+
+/* SOBRE */
+
+.sobre{
+    text-align:center;
+}
+
+.sobre img{
+    width:300px;
+    margin-top:20px;
+    border-radius:10px;
+}
+
+
+/* CLUBES */
+
+.clubes{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+}
+
+.clubes article{
+    text-align:center;
+}
+
+.clubes img{
+    width:120px;
+}
+
+
+/* TITULOS */
+
+.titulos{
+    text-align:center;
+}
+
+.titulos article{
+    margin:10px;
+}
+
+
+/* PUSKAS */
+
+.puskas{
+    text-align:center;
+}
+
+
+/* FORMULARIO */
+
+.formulario{
+    text-align:center;
+}
+
+.formulario input{
+    padding:10px;
+    margin:10px;
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:20px;
+    position:relative;
+}
